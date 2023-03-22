@@ -29,3 +29,14 @@ def number_to_full_month_name(month):
 def number_to_short_month_name(month):
     months = ["Jan","Feb", "Mar","Apr","May","Jun","Jul","Aug","Sept","Oct","Nov","Dec"]
     return months[month -1]
+
+def calculate_cube_volume(side_length):
+    volume = side_length ** 3
+    return volume
+
+def reversed_string(string):
+    return string[::-1]
+
+def farenheit_to_celsius(farenheit):
+    celsius =(farenheit -32) * 5/9
+    return celsius
